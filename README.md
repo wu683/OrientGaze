@@ -1,0 +1,2 @@
+Throughout all experiments, models are trained using the AdamW optimizer with a batch size of 16 and an initial learning rate of  on a single NVIDIA GeForce RTX 5090 GPU.
+ For the GAFA experiments, the weights of the head orientation loss, body orientation loss, and gaze direction loss are set to =0.35, =0.35, and =0.30, respectively, while the weight of the feature alignment loss is set to =0.005. The maximum number of training epochs is set to 10.
